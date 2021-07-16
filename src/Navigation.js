@@ -4,8 +4,8 @@ function Navigation() {
     return (
         <div className="Navigation">
             <nav class="flex bg-white flex-wrap items-center justify-between p-4">
-                <div class="lg:order-1 w-auto lg:w-1/5 lg:text-left">
-                    <p class="text-xl ml-40 text-gray-800 font-semibold font-heading">
+                <div class="lg:order-1 w-auto lg:w-1/3 lg:text-left">
+                    <p class="text-xl ml-60 text-gray-800 font-semibold font-heading">
                         Lachlan Teale
                     </p>
                 </div>
@@ -20,7 +20,7 @@ function Navigation() {
                         </svg>
                     </button>
                 </div> */}
-                <div class="navbar-menu hidden lg:order-2 lg:block w-full lg:w-3/5 lg:text-center">
+                <div class="navbar-menu hidden lg:order-2 lg:block w-full lg:w-1/3 lg:text-center">
                     <a class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-800 hover:text-indigo-600" href="#about">
                         About
                     </a>
@@ -34,8 +34,8 @@ function Navigation() {
                         News
                     </a>
                 </div>
-                <div class="navbar-menu hidden lg:order-3 lg:block w-full lg:w-1/5 lg:text-right">
-                    <a class="block lg:inline-block mt-4 lg:mt-0 mr-40 text-gray-800 hover:text-indigo-600" href="#contact">
+                <div class="navbar-menu hidden lg:order-3 lg:block w-full lg:w-1/3 lg:text-right">
+                    <a class="block lg:inline-block mt-4 lg:mt-0 mr-60 text-gray-800 hover:text-indigo-600" href="#contact">
                         Contact Me
                     </a>
 

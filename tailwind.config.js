@@ -5,7 +5,15 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    colors: {
+      ironmanred: '#D71515'
+    },
+    extend: {
+      margin: {
+        '100': '28rem',
+        '120': '48rem',
+      }
+    }
   },
   variants: {
     extend: {},
