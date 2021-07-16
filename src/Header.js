@@ -16,7 +16,7 @@ function Header() {
         </div>
 
       </div>
-      <img class="w-full z-10" src="https://via.placeholder.com/1200x600text=Cool-Header-Here" alt=""/>
+      <img class="w-full z-10" src="https://via.placeholder.com/1200x600?text=Cool-Header-Here" alt=""/>
    </div>
   );
 }
