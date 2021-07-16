@@ -1,0 +1,9 @@
+@font-face { font-family: 'Formula Bold'; src: url('PPFormulaCondensed-Bold.otf'); } 
+
+a {
+    font-family: 'Formula Bold', sans-serif;
+}
+
+p {
+    font-family: 'Formula Bold', sans-serif;
+}
