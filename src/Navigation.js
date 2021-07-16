@@ -2,10 +2,10 @@ import './Navigation.css';
 
 function Navigation() {
     return (
-        <div className="Header">
+        <div className="Navigation">
             <nav class="flex bg-white flex-wrap items-center justify-between p-4">
                 <div class="lg:order-1 w-auto lg:w-1/5 lg:text-left">
-                    <p class="text-xl ml-10 text-gray-800 font-semibold font-heading">
+                    <p class="text-xl ml-40 text-gray-800 font-semibold font-heading">
                         Lachlan Teale
                     </p>
                 </div>
@@ -35,7 +35,7 @@ function Navigation() {
                     </a>
                 </div>
                 <div class="navbar-menu hidden lg:order-3 lg:block w-full lg:w-1/5 lg:text-right">
-                    <a class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-gray-800 hover:text-indigo-600" href="#contact">
+                    <a class="block lg:inline-block mt-4 lg:mt-0 mr-40 text-gray-800 hover:text-indigo-600" href="#contact">
                         Contact Me
                     </a>
 
