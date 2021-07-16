@@ -4,6 +4,6 @@
 
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: auto; */
     background-color: #F3EEE8
 }
