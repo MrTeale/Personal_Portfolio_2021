@@ -7,12 +7,12 @@ function Header() {
 
         <div className="HeaderRight" class="w-1/2 lg:-mt-20">
           {/* Must Align Name with end of Software. Will Figure out later */}
-          <h1 class="text-gray-800 lg:text-5xl lg:ml-40">LACHLAN TEALE</h1>
+          <h1 class="text-black lg:text-5xl lg:ml-40">LACHLAN TEALE</h1>
           <h2 class="text-ironmanred lg:text-8xl ml-20">SOFTWARE ENGINEER</h2>
         </div>
 
         <div className="HeaderLeft" class="w-1/2 mr-0">
-          <h1 class="text-gray-800 lg:text-xl text-right mr-100 -mt-10">Brisbane, Australia</h1>
+          <h1 class="text-black lg:text-xl text-right mr-100 -mt-10">Brisbane, Australia</h1>
         </div>
 
       </div>
