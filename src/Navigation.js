@@ -2,7 +2,7 @@ import './Navigation.css';
 
 function Navigation() {
     return (
-        <div className="Navigation" class="sticky">
+        <div className="Navigation">
             <nav class="flex bg-white flex-wrap items-center justify-between p-4">
                 <div class="lg:order-1 w-auto lg:w-1/3 lg:text-left">
                     <p class="text-3xl lg:ml-60 text-gray-800 font-semibold font-heading">
