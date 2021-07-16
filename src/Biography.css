@@ -1,0 +1,25 @@
+@font-face { 
+    font-family: 'Formula Bold'; 
+    src: url('PPFormulaCondensed-Bold.otf'); 
+} 
+@font-face {
+    font-family: 'TT Hoves Regular';
+    src: url('TTHoves-Regular.ttf');
+}
+@font-face {
+    font-family: 'TT Hoves DemiBold';
+    src: url('TTHoves-DemiBold.ttf');
+}
+
+h2 {
+    font-family: 'Formula Bold', sans-serif;
+}
+
+p.caption {
+    font-family: 'TT Hoves Regular', sans-serif;
+}
+
+.bio {
+    font-family: 'TT Hoves DemiBold', sans-serif;
+}
+
