@@ -13,7 +13,16 @@ module.exports = {
       margin: {
         '100': '28rem',
         '120': '48rem',
-      }
+      },
+      fontSize: {
+        '20xl': ['25rem', {
+          letterSpacing: '-0.01em',
+        }],
+      },
+      zIndex: {
+        '1': 1,
+        '2': 2
+       }
     }
   },
   variants: {
