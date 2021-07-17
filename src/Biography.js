@@ -2,8 +2,8 @@ import './Biography.css';
 
 function Biography() {
   return (
-    <div className="Biography" class="lg:mx-80 mt-36">
-        <h2 class="text-black lg:text-8xl w-full">BIOGRAPHY</h2>
+    <div id="about" className="Biography" class="lg:mx-80 mt-36">
+        <h2 class="text-black lg:text-9xl w-full">BIOGRAPHY</h2>
         <div class="w-full grid grid-cols-5 grid-rows-1 auto-cols-min mt-10">
             <div class="col-start-1 col-span-3 row-start-1">
                 <img class="" src="https://via.placeholder.com/800x450?text=Photo-of-me-doing-something" alt=""/>
