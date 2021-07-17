@@ -2,7 +2,7 @@ import './Biography.css';
 
 function Biography() {
   return (
-    <div id="about" className="Biography" class="lg:mx-80 mt-36">
+    <div id="about" className="Biography" class="lg:mx-80 mt-24 pt-12">
         <h2 class="text-black lg:text-9xl w-full">BIOGRAPHY</h2>
         <div class="w-full grid grid-cols-5 grid-rows-1 auto-cols-min mt-10">
             <div class="col-start-1 col-span-3 row-start-1">

@@ -2,7 +2,7 @@ import './Projects.css';
 
 function Projects() {
     return (
-        <div className="Projects" class="w-full  mt-40">
+        <div id="projects" className="Projects" class="w-full  mt-40">
             <h2 class="lg:text-9xl w-auto mx-80 text-ironmanred">PROJECTS</h2>
 
             <div class="flex overflow-x-scroll scrollbarhide mb-32">

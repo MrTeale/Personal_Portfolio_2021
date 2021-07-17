@@ -2,7 +2,7 @@ import './Skills.css';
 
 function Skills() {
   return (
-    <div id="skills" className="Skills" class="w-auto lg:mt-56">
+    <div id="skills" className="Skills" class="w-auto lg:mt-44 pt-12">
         <h1 class="text-6xl text-black pb-5 border-b-2 border-customgray mx-80">SKILLS & TOOLS</h1>
         
         <div class="scrollbarhide mt-8 mb-4 flex overflow-x-scroll pt-8 overflow-y-hidden">
