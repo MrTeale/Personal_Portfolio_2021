@@ -4,7 +4,7 @@ function Experience() {
   return (
     <div id="experience" className="Experience" class="w-full mt-36">
       <div class="z-1 sticky top-0 ">
-        <h1 class="text-customwhite text-20xl text-center stroke">EXPERIENCE</h1>
+        <h1 class="text-transparent text-20xl text-center stroke">EXPERIENCE</h1>
       </div>
 
       <div class="relative mx-80 z-2 -mt-96">
