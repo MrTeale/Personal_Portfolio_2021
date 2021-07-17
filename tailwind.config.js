@@ -19,11 +19,17 @@ module.exports = {
         '20xl': ['25rem', {
           letterSpacing: '-0.01em',
         }],
+        '12xl': ['10rem', {
+          letterSpacing: '-0.01em',
+        }],
       },
       zIndex: {
         '1': 1,
         '2': 2
-       }
+      },
+      height: {
+        '200': '30rem'
+      }
     }
   },
   variants: {
