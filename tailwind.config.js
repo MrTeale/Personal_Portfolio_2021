@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       colors: {
         ironmanred: '#D71515',
-        customwhite: '#F3EEE8'
+        customwhite: '#F3EEE8',
+        customgray: '#b4b4b4'
       },
       margin: {
         '100': '28rem',
