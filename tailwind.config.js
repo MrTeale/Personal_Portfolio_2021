@@ -12,11 +12,15 @@ module.exports = {
         customgray: '#b4b4b4'
       },
       margin: {
+        '70': '17.5rem',
         '100': '28rem',
         '120': '48rem',
       },
       fontSize: {
         '20xl': ['25rem', {
+          letterSpacing: '-0.01em',
+        }],
+        '25xl': ['30rem', {
           letterSpacing: '-0.01em',
         }],
         '12xl': ['10rem', {
@@ -28,7 +32,8 @@ module.exports = {
         '2': 2
       },
       height: {
-        '200': '30rem'
+        '112': '28rem',
+        '120': '30rem'
       }
     }
   },
