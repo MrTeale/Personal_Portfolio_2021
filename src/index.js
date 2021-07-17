@@ -7,6 +7,7 @@ import Biography from './Biography';
 import Experience from './Experience';
 import Skills from './Skills';
 import Quote from './Quote';
+import Footer from './Footer';
 
 
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Experience />
     <Skills />
     <Quote />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
