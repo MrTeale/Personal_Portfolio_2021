@@ -2,7 +2,7 @@ import './Experience.css';
 
 function Experience() {
   return (
-    <div className="Experience" class="w-full mt-36">
+    <div id="experience" className="Experience" class="w-full mt-36">
       <div class="z-1 sticky top-0 ">
         <h1 class="text-customwhite text-20xl text-center stroke">EXPERIENCE</h1>
       </div>
