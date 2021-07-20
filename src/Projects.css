@@ -26,6 +26,10 @@
     font-family: 'TT Hoves DemiBold', sans-serif;
 }
 
+.textfontthin {
+    font-family: 'TT Hoves DemiBold', sans-serif;
+}
+
 .scrollbarhide {
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
