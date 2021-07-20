@@ -12,7 +12,7 @@ function Header() {
         </div>
 
         <div className="HeaderLeft" class="w-1/3">
-          <h1 class="text-black lg:text-xl text-right mr-24 -mt-10">Brisbane, Australia</h1>
+          <h1 class="text-black lg:text-2xl text-right mr-24 -mt-10">Brisbane, Australia</h1>
         </div>
 
       </div>
