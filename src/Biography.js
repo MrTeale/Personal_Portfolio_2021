@@ -16,8 +16,8 @@ function Biography() {
                 <img class="object-fit" src="https://via.placeholder.com/500x700?text=Photo-of-me-front-on" alt=""/>
                 {/* <p class="caption">Image Caption Here under photo 2</p> */}
             </div>
-            <p class="bio col-start-1 row-start-1 ml-32 mt-32 mr-20 text-xl">Lachlan Teale applies his skills to solving complicated problems through the lens of Software Engineer and an Entrepreneur. <br/><br/>With experience as a Machine Learning Engineer, Data Scientist, Analytics Team Lead and Co-founder, Lachlan's led large cross-functional teams for organisations in Mining, Healthcare and Finance.</p>
-            {/* <a href="bio" class="bio underline text-base hover:text-ironmanred col-start-1 row-start-1 ml-32 mt-auto mb-16 mr-20">Read a more in-depth background</a> */}
+            <p class="bio col-start-1 row-start-1 ml-16 mt-32 mr-20 text-xl">Lachlan Teale applies his skills to solving complicated problems through the lens of Software Engineer and an Entrepreneur. <br/><br/>With experience as a Machine Learning Engineer, Data Scientist, Analytics Team Lead and Co-founder, Lachlan's led large cross-functional teams for organisations in Mining, Healthcare and Finance.</p>
+            {/* <a href="bio" class="bio underline text-base hover:text-ironmanred col-start-1 row-start-1 ml-16 mt-auto mb-16 mr-20">Read a more in-depth background</a> */}
         </div>
    </div>
   );
