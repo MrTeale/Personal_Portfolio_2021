@@ -5,6 +5,22 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      'sm': '677px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '802px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1104px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1326px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1624px',
+      // => @media (min-width: 1536px) { ... }
+    },
     extend: {
       colors: {
         ironmanred: '#D71515',
