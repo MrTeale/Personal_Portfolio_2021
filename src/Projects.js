@@ -97,7 +97,7 @@ function Projects() {
                     </div>
                 </div> */ }
 
-                <div class="bg-customwhite flex-none w-96 h-120 mx-6 p-10 mr-70 relative">
+                <div class="bg-customwhite flex-none w-96 h-120 mx-6 p-10 md:p-8 lg:p-10 mr-0 md:mr-32 lg:mr-70 relative">
                     <h1 class=" text-5xl headerfont">Personal Website</h1>
                     <h2 class="textfont">This is Lachlan's Personal Portfolio, the one you're staring at right now. Built over the course of a week and fine tuned afterwards, the website embodies Lachlan's aesthetic at this current moment. If you'd like to see how it was made, click below. </h2>
                     <div class="absolute bottom-0 w-full">
