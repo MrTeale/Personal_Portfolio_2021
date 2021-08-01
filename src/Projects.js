@@ -3,11 +3,11 @@ import './Projects.css';
 function Projects() {
     return (
         <div id="projects" className="Projects" class="w-full  mt-40">
-            <h2 class="lg:text-9xl w-auto mx-80 text-ironmanred">PROJECTS</h2>
+            <h2 class="text-5xl md:text-7xl lg:text-9xl w-auto mx-10 md:mx-40 lg:mx-80 text-ironmanred">PROJECTS</h2>
 
-            <div class="flex overflow-x-scroll scrollbarhide mb-32">
+            <div class="flex overflow-x-scroll scrollbarhide sm:mb-32">
 
-                <div class="bg-customwhite flex-none w-96 h-120 mx-6 p-10 ml-70 relative">
+                <div class="bg-customwhite flex-none w-96 h-120 mx-6 p-10 md:p-8 lg:p-10 ml-0 md:ml-32 lg:ml-70  relative">
                     <h1 class=" text-5xl headerfont " >CATO</h1>
                     <h2 class="textfont">CATO is Lachlan's take on E.D.I.T.H from the Marvel Cinematic Universe's Iron Man and Spider-Man movies. This is a long term ongoing project that takes voice commands, determines the users intent and provides appropriate responses.</h2>
                     <div class="absolute bottom-0 w-full">
@@ -116,6 +116,7 @@ function Projects() {
                 </div>
 
             </div>
+            <p class="visible sm:hidden mt-10 mb-32 w-auto mx-10 text-ironmanred inline-flex align-right text-xl ">Scroll Across <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg></p>
         </div>
     );
 }
