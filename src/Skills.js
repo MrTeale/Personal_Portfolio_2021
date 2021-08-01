@@ -31,7 +31,7 @@ export default class Skills extends Component {
 
         <div class="scrollbarhide md:mt-6 xl:mt-8 mb-4 flex overflow-x-scroll pt-8 overflow-y-hidden">
           {skills.map((skill, index, skills) => {
-            return <h2 class={(index === 0 ? "2xl:ml-80 xl:ml-60 lg:ml-40 md:ml-40 ml-10 ": "") + (index === skills.length - 1 ? "2xl:mr-80 xl:mr-60 lg:ml-40 md:mr-40 mr-10 ": "") + (this.state.skillSelected === skill.key ? this.state.activeClass : this.state.otherClass)} onClick={() => this.handleClick(skill.key)}>{skill.text}</h2>})
+            return <h2 class={(index === 0 ? "2xl:ml-80 xl:ml-60 lg:ml-40 md:ml-40 ml-10 ": "") + (index === skills.length - 1 ? "2xl:mr-80 xl:mr-60 lg:mr-40 md:mr-40 mr-10 ": "") + (this.state.skillSelected === skill.key ? this.state.activeClass : this.state.otherClass)} onClick={() => this.handleClick(skill.key)}>{skill.text}</h2>})
           }
         </div>
 
