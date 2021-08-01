@@ -44,7 +44,7 @@ export default class Experience extends Component {
                   <h2 class="text-5xl font-semibold ">{descriptions[i].position}</h2>
                   <h2 class="text-6xl font-semibold mt-6 text-ironmanred">{descriptions[i].title}</h2>
                 </div>
-                <div class="col-start-2 row-start-1 mt-16">
+                <div class="col-start-2 row-start-1 mb-2 mt-auto">
                   <h3 class="text-2xl text-right">{descriptions[i].location}</h3>
                   <h3 class="text-2xl text-right flex justify-end"><span class="text-ironmanred">{descriptions[i].start}</span> <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg> {descriptions[i].end}</h3>
                 </div>
