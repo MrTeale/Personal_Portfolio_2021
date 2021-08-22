@@ -42,6 +42,30 @@ module.exports = {
         '12xl': ['10rem', {
           letterSpacing: '-0.01em',
         }],
+        '10xl': ['9.25rem', {
+          letterSpacing: '-0.01em',
+        }],
+        '14xl': ['12rem', {
+          letterSpacing: '-0.01em',
+        }],
+        '16xl': ['15rem', {
+          letterSpacing: '-0.01em',
+        }],
+        '18xl': ['20rem', {
+          letterSpacing: '-0.01em',
+        }],
+        '8_5xl': ['6.5rem', {
+          letterSpacing: '-0.01em',
+        }],
+        '7_5xl': ['5rem', {
+          letterSpacing: '-0.01em',
+        }],
+        '6_5xl': ['4rem', {
+          letterSpacing: '-0.01em',
+        }],
+        '100vw': ['100vw', {
+          letterSpacing: '-0.01em',
+        }]
       },
       zIndex: {
         '1': 1,
