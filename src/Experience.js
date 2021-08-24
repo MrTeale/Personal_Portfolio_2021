@@ -75,7 +75,7 @@ export default class Experience extends Component {
           <div class="relative mx-10 sm:mx-20 md:mx-28 lg:mx-40 xl:mx-60 2xl:mx-80 z-2 -mt-32 sm:-mt-48 md:-mt-64 lg:-mt-72 xl:-mt-96">
             {experience.map((job, index) => {
 
-              return (<div class={index === 0 ? "mt-24" : "sm:flex sm:mt-10"}>
+              return (<div class={index === 0 ? "sm:flex sm:mt-10 mt-24" : "sm:flex sm:mt-10"}>
                 <h2 class="text-6_5xl sm:text-6xl md:text-6_5xl lg:text-8xl xl:text-8_5xl 2xl:text-9xl text-black opacity-60 hover:opacity-100" onClick={() => this.handleClick(job.key)}>{job.text}</h2>
                 <div class="hidden ml-3 2xl:ml-5 -mt-2 sm:flex">
                   <h3 class="text-ironmanred mr-2 text-base xl:text-xl">{job.start}</h3>
