@@ -6,20 +6,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
-      'sm': '677px',
-      // => @media (min-width: 640px) { ... }
-
-      'md': '802px',
-      // => @media (min-width: 768px) { ... }
-
-      'lg': '1104px',
-      // => @media (min-width: 1024px) { ... }
-
-      'xl': '1326px',
-      // => @media (min-width: 1280px) { ... }
-
-      '2xl': '1624px',
-      // => @media (min-width: 1536px) { ... }
+      'sm': {'min': '677px'},
+      'md': {'min': '802px'},
+      'lg': {'min': '1104px'},
+      'xl': {'min': '1326px'},
+      '2xl': {'min': '1624px'},
     },
     extend: {
       colors: {
