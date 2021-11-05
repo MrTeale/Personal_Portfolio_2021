@@ -1,4 +1,5 @@
 import './Biography.css';
+import fun_image from './images/800_450.png'
 
 function Biography() {
   return (
@@ -7,7 +8,7 @@ function Biography() {
         <div class="w-full md:grid md:grid-cols-5 md:grid-rows-1 md:auto-cols-min mt-10">
             <p class="bio md:col-start-4 md:col-span-2 md:row-start-1 text-left lg:ml-32 md:ml-16 md:my-auto text-base md:text-xl mb-10">Engineer. Adventurer. Founder. Visionary. <br/> Lachlan Teale’s fanatical lifestyle is only matched by his abilities as a programmer.</p>
             <div class="md:col-start-1 md:col-span-3 md:row-start-1">
-                <img class="" src="https://via.placeholder.com/800x450?text=Photo-of-me-doing-something" alt=""/>
+                <img class="" src={fun_image} alt=""/>
             </div>
         </div>
         <div class="w-full md:grid md:grid-cols-2 md:grid-rows-1 md:auto-cols-min md:mt-16 mt-12">
