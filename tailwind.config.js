@@ -5,6 +5,13 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    maxHeight: {
+      '0': '0',
+      '1_4': '25%',
+      '1_2': '50%',
+      '3_4': '75%',
+      'full': '100%',
+    },
     screens: {
       'sm': {'min': '677px'},
       'md': {'min': '802px'},

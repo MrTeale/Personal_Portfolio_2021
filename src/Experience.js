@@ -31,8 +31,8 @@ export default class Experience extends Component {
       skillSelected: i,
       show: true,
       card: (
-        <div class="fixed inset-0 bg-gray-800 bg-opacity-25 w-screen h-screen z-50 flex overflow-y-auto" onClick={() => this.handleCardClick()}>
-          <div class="mx-10 sm:mx-20 md:mx-40 2xl:mx-80 bg-customwhite rounded-lg my-auto w-full h-auto">
+        <div class="fixed inset-0 bg-gray-800 bg-opacity-25 w-screen h-screen z-50 flex px-10 sm:px-20 md:px-40 2xl:px-80"onClick={() => this.handleCardClick()}>
+          <div class=" bg-customwhite rounded-lg my-auto mx-auto max-w-6xl max-h-3_4 w-full h-auto overflow-y-auto"> {/* style="max-width: 1900px; margin-left: auto; margin-right: auto;" */}
             <div class="w-full relative">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 absolute top-2 right-2 hover:stroke-current hover:text-ironmanred" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
