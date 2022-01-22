@@ -38,7 +38,7 @@ export default class Experience extends Component {
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
               </svg>
             </div>
-            <div class="px-16 py-16">
+            <div class="px-8 py-16">
               <h2 class="text-4xl 2xl:text-5xl font-semibold ">{descriptions[i].position}</h2>
               <div class="sm:grid sm:grid-cols-2 sm:grid-rows-1">
                 <div class="sm:col-start-1 sm:row-start-1">
