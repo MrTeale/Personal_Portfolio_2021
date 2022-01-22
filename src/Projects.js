@@ -5,7 +5,7 @@ function Projects() {
         <div id="projects" className="Projects" class="w-full  mt-40">
             <h2 class="text-5xl md:text-7xl lg:text-9xl w-auto mx-10 md:mx-40 lg:mx-80 text-ironmanred">PROJECTS</h2>
 
-            <div class="flex overflow-x-scroll scrollbarhide sm:mb-32">
+            <div class="flex overflow-x-scroll scrollbarhide overflow-y-hidden sm:mb-32">
 
                 <div class="bg-customwhite flex-none w-96 h-120 mx-6 p-10 md:p-8 lg:p-10 ml-0 md:ml-32 lg:ml-70  relative">
                     <h1 class=" text-5xl headerfont " >CATO</h1>
