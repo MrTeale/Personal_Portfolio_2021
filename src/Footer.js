@@ -6,7 +6,7 @@ function Footer() {
             <nav class="flex flex-wrap bg-customwhite items-center justify-between p-4">
                 <div class="lg:order-1 lg:w-1/3 w-1/2 mt-4 lg:mt-0 text-center">
                     <p class="uppercase block lg:inline-block text-xl sm:ml-20 md:ml-40 lg:ml-60 text-black font-semibold font-heading">
-                        &copy;2021 Lachlan Teale
+                        &copy;2022 Lachlan Teale
                     </p>
                 </div>
                 <div class="lg:order-2 lg:block w-full lg:w-1/3 hidden text-center">
@@ -25,7 +25,6 @@ function Footer() {
                     <a class="uppercase block lg:inline-block mt-4 lg:mt-0 sm:mr-20 md:mr-40 lg:mr-60 text-black hover:text-ironmanred text-xl" href="#contact">
                         Contact Me
                     </a>
-
                 </div>
             </nav>
 

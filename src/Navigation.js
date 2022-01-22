@@ -38,7 +38,6 @@ function Navigation() {
                     <a class="uppercase block lg:inline-block mt-4 lg:mt-0 mr-60 text-ironmanred hover:text-black text-xl" href="#contact">
                         Contact Me
                     </a>
-
                 </div>
             </nav>
 
