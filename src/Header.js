@@ -1,4 +1,5 @@
 import './Header.css';
+import header_image from './images/1200x600_header.jpg'
 
 function Header() {
   return (
@@ -15,7 +16,7 @@ function Header() {
         </div>
 
       </div>
-      <img class="z-10 w-full h-120 sm:h-auto object-cover" src="https://via.placeholder.com/1200x600?text=Cool-Header-Here" alt=""/>
+      <img class="z-10 w-full h-120 sm:h-auto object-cover" src={header_image} alt=""/>
    </div>
   );
 }
