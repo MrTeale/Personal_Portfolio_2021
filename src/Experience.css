@@ -1,0 +1,27 @@
+@font-face { 
+  font-family: 'Formula Bold'; 
+  src: url('PPFormulaCondensed-Bold.otf'); 
+} 
+@font-face {
+  font-family: 'TT Hoves Regular';
+  src: url('TTHoves-Regular.ttf');
+}
+@font-face {
+  font-family: 'TT Hoves DemiBold';
+  src: url('TTHoves-DemiBold.ttf');
+}
+
+
+h1.stroke {
+    /* Prefix required. Even Firefox only supports the -webkit- prefix */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #b4b4b4;
+  }
+
+h3 {
+  font-family: 'Formula Bold', sans-serif;
+}
+
+.description-text {
+  font-family: 'TT Hoves DemiBold', sans-serif;
+}

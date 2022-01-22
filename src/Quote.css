@@ -1,0 +1,6 @@
+span.stroke {
+    /* Prefix required. Even Firefox only supports the -webkit- prefix */
+
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #D71515;
+  }
