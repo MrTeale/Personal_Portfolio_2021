@@ -44,6 +44,6 @@ Lachlan Teale - [@mrteale](https://twitter.com/mrteale) - lachlanteale@gmail.com
 Project Link: [https://github.com/mrteale/personal_portfolio_2021](https://github.com/mrteale/personal_portfolio_2021)
 
 [license-shield]: https://img.shields.io/github/license/mrteale/personal_portfolio_2021.svg?style=for-the-badge
-[license-url]: https://github.com/mrteale/personal_portfolio_2021/blob/master/LICENSE.txt
+[license-url]: https://github.com/MrTeale/Personal_Portfolio_2021/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/mrteale
