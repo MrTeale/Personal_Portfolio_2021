@@ -16,7 +16,7 @@ function Header() {
         </div>
 
       </div>
-      <img class="z-10 w-full h-120 sm:h-auto object-cover" src={header_image} alt=""/>
+      <img class="z-10 w-full h-112 sm:h-auto object-cover" src={header_image} alt=""/>
    </div>
   );
 }
