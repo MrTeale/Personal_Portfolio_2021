@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './Skills.css';
 
 const descriptions = {
   python: "Due to his experience in machine learning and data science, Python is Lachlan's main choice of language. He loves it's diversity of applications coupled with it's easy to read, simple syntax and has utilised it for a wide array of personal and professional projects such as: optimising mine sites, predicting failures of machinery, and backend rest APIs for web app frontends.",
@@ -14,8 +13,8 @@ export default class Skills extends Component {
     super(props);
     this.state = {
       skillSelected: "python",
-      activeClass: "text-7xl md:text-8xl xl:text-9xl text-ironmanred",
-      otherClass: "text-7xl md:text-8xl xl:text-9xl stroke text-transparent hover:text-black"
+      activeClass: "text-7xl md:text-8xl xl:text-9xl text-ironmanred font-formula",
+      otherClass: "text-7xl md:text-8xl xl:text-9xl stroke text-transparent hover:text-black font-formula"
     }
   }
 
@@ -27,7 +26,7 @@ export default class Skills extends Component {
     const skills = [{ "key": "python", "text": "PYTHON" }, { "key": "tensorflow", "text": "TENSORFLOW" }, { "key": "webdev", "text": "HTML/CSS/REACT" }, {"key": "sql", "text": "SQL"}, { "key": "cloud", "text": "AWS/GCP/AZURE" }];
     return (
       <div id="skills" className="Skills" class="w-auto lg:mt-44 pt-12">
-        <h1 class="text-5xl lg:text-6xl text-black pb-5 border-b-2 border-customgray 2xl:mx-80 xl:mx-60 md:mx-40 mx-10">SKILLS & TOOLS</h1>
+        <h1 class="text-5xl lg:text-6xl text-black pb-5 border-b-2 border-customgray 2xl:mx-80 xl:mx-60 md:mx-40 mx-10 font-formula">SKILLS & TOOLS</h1>
 
         <div class="scrollbarhide md:mt-6 xl:mt-8 mb-4 flex overflow-x-scroll pt-8 overflow-y-hidden">
           {skills.map((skill, index, skills) => {
@@ -37,7 +36,7 @@ export default class Skills extends Component {
 
         <div class="2xl:mx-80 xl:mx-60 md:mx-40 mx-10 pt-5 border-t-2 h-120 border-customgray">
           
-          <h3 class="text-xl md:text-2xl mt-5">{descriptions[this.state.skillSelected]}</h3>
+          <h3 class="text-xl md:text-2xl mt-5 font-tt-demibold">{descriptions[this.state.skillSelected]}</h3>
         </div>
       </div>
     );

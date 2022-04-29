@@ -1,11 +1,9 @@
-import './Navigation.css';
-
 function Navigation() {
     return (
         <div className="Navigation">
             <nav class="flex bg-customwhite flex-wrap items-center justify-between p-4">
                 <div class="lg:order-1 w-auto lg:w-1/3 lg:text-left">
-                    <p class="invisible lg:visible uppercase text-2xl lg:ml-60 text-black font-semibold font-heading">
+                    <p class="invisible lg:visible uppercase text-2xl lg:ml-60 text-black font-semibold font-heading font-formula">
                         Lachlan Teale
                     </p>
                 </div>
@@ -21,21 +19,21 @@ function Navigation() {
                     </button>
                 </div> */}
                 <div class="hidden lg:order-2 lg:block w-full lg:w-1/3 lg:text-center">
-                    <a class="uppercase block lg:inline-block mt-4 lg:mt-0 xl:mr-10 lg:mr-4 text-black hover:text-ironmanred text-xl" href="#about">
+                    <a class="uppercase block lg:inline-block mt-4 lg:mt-0 xl:mr-10 lg:mr-4 text-black hover:text-ironmanred text-xl font-formula" href="#about">
                         About
                     </a>
-                    <a class="uppercase block lg:inline-block mt-4 lg:mt-0 xl:mr-10 lg:mr-4 text-black hover:text-ironmanred text-xl" href="#experience">
+                    <a class="uppercase block lg:inline-block mt-4 lg:mt-0 xl:mr-10 lg:mr-4 text-black hover:text-ironmanred text-xl font-formula" href="#experience">
                         Experience
                     </a>
-                    <a class="uppercase block lg:inline-block mt-4 lg:mt-0 xl:mr-10 lg:mr-4 text-black hover:text-ironmanred text-xl" href="#skills">
+                    <a class="uppercase block lg:inline-block mt-4 lg:mt-0 xl:mr-10 lg:mr-4 text-black hover:text-ironmanred text-xl font-formula" href="#skills">
                         Skills
                     </a>
-                    <a class="uppercase block lg:inline-block mt-4 lg:mt-0 text-black hover:text-ironmanred text-xl" href="#projects">
+                    <a class="uppercase block lg:inline-block mt-4 lg:mt-0 text-black hover:text-ironmanred text-xl font-formula" href="#projects">
                         Projects
                     </a>
                 </div>
                 <div class="hidden lg:order-3 lg:block w-full lg:w-1/3 lg:text-right">
-                    <a class="uppercase block lg:inline-block mt-4 lg:mt-0 mr-60 text-ironmanred hover:text-black text-xl" href="#contact">
+                    <a class="uppercase block lg:inline-block mt-4 lg:mt-0 mr-60 text-ironmanred hover:text-black text-xl font-formula" href="#contact">
                         Contact Me
                     </a>
                 </div>
