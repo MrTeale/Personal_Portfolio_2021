@@ -19,6 +19,11 @@ module.exports = {
       '2xl': {'min': '1624px'},
     },
     extend: {
+      fontFamily: {
+        'tt-regular': ['"TT Hoves Regular"', 'sans-serif'],
+        'tt-demibold': ['"TT Hoves DemiBold"', 'sans-serif'],
+        'formula': ['"Formula Bold"', 'sans-serif'],
+      },
       colors: {
         ironmanred: '#D71515',
         customwhite: '#F3EEE8',
