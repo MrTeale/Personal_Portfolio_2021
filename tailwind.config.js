@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin');
+
 module.exports = {
   content: [
     './src/*.js',
@@ -83,5 +85,10 @@ module.exports = {
     fill: ['hover', 'focus'],
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    plugin(function({ addVariant }) {
+      addVariant('middle', '&:not(:last-child):not(:first-child)');
+    })
+    
+  ],
 }
