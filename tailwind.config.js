@@ -66,9 +66,6 @@ module.exports = {
         }],
         '6_5xl': ['4rem', {
           letterSpacing: '-0.01em',
-        }],
-        '100vw': ['100vw', {
-          letterSpacing: '-0.01em',
         }]
       },
       zIndex: {

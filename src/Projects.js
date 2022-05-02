@@ -115,7 +115,7 @@ function Projects() {
                     </div>
                 </div>
             </div>
-            <p class="visible sm:hidden mt-10 mb-32 w-auto mx-10 text-ironmanred inline-flex align-right text-xl ">Scroll Across <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg></p>
+            <p class="visible sm:hidden mt-10 mb-32 w-auto mx-10 text-ironmanred inline-flex align-right text-xl font-formula">Scroll Across <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg></p>
         </div>
     );
 }
