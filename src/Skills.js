@@ -13,8 +13,8 @@ export default class Skills extends Component {
     super(props);
     this.state = {
       skillSelected: "python",
-      activeClass: "text-7xl md:text-8xl xl:text-9xl text-ironmanred font-formula",
-      otherClass: "text-7xl md:text-8xl xl:text-9xl stroke text-transparent hover:text-black font-formula"
+      activeClass: "text-ironmanred",
+      otherClass: "stroke text-transparent hover:text-black"
     }
   }
 
@@ -29,8 +29,8 @@ export default class Skills extends Component {
         <h1 class="text-5xl lg:text-6xl text-black pb-5 border-b-2 border-customgray 2xl:mx-80 xl:mx-60 md:mx-40 mx-10 font-formula">SKILLS & TOOLS</h1>
 
         <div class="scrollbarhide md:mt-6 xl:mt-8 mb-4 flex overflow-x-scroll pt-8 overflow-y-hidden">
-          {skills.map((skill, index, skills) => {
-            return <h2 class={(index !== 0 && index !== skills.length - 1 ? "lg:mx-10 mx-4 " : "") + (index === 0 ? "2xl:ml-80 xl:ml-60 lg:ml-40 md:ml-40 ml-10 lg:mr-10 mr-4 ": "") + (index === skills.length - 1 ? "after:2xl:mr-80 after:xl:mr-60 after:lg:mr-40 after:md:mr-40 after:mr-10 after:w-px lg:ml-10 ml-4 ": "") + (this.state.skillSelected === skill.key ? this.state.activeClass : this.state.otherClass)} onClick={() => this.handleClick(skill.key)}>{skill.text}</h2>})
+          {skills.map((skill) => {
+            return <button type="button" class={"middle:lg:mx-10 middle:mx-4 first:2xl:ml-80 first:xl:ml-60 first:lg:ml-40 first:md:ml-40 first:ml-10 first:lg:mr-10 first:mr-4 last:after:2xl:mr-80 last:after:xl:mr-60 last:after:lg:mr-40 last:after:md:mr-40 last:after:mr-10 last:after:w-px last:lg:ml-10 last:ml-4 text-7xl md:text-8xl xl:text-9xl font-formula " + (this.state.skillSelected === skill.key ? this.state.activeClass : this.state.otherClass)} onClick={() => this.handleClick(skill.key)}>{skill.text}</button>})
           }
         </div>
 

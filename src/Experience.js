@@ -75,10 +75,10 @@ export default class Experience extends Component {
           <div class="relative mx-10 sm:mx-20 md:mx-28 lg:mx-40 xl:mx-60 2xl:mx-80 z-2 -mt-32 sm:-mt-48 md:-mt-64 lg:-mt-72 xl:-mt-96">
             {experience.map((job, index) => {
 
-              return (<div class={index === 0 ? "sm:flex sm:mt-10 mt-24" : "sm:flex sm:mt-10"}>
-                <h2 class="text-6_5xl sm:text-6xl md:text-6_5xl lg:text-8xl xl:text-8_5xl 2xl:text-9xl text-black opacity-60 hover:opacity-100 font-formula" onClick={() => this.handleClick(job.key)}>{job.text}</h2>
-                <div class="hidden ml-3 2xl:ml-5 -mt-2 sm:flex">
-                  <h3 class="text-ironmanred mr-2 text-base xl:text-xl font-tt-demibold">{job.start}</h3>
+              return (<div class="sm:flex sm:mt-10 first:mt-24 text-6_5xl sm:text-6xl md:text-6_5xl lg:text-8xl xl:text-8_5xl 2xl:text-9xl">
+                <h2 class="inline sm:block font-formula pt-[0.31em] px-2 hover:bg-ironmanred hover:text-white text-black " onClick={() => this.handleClick(job.key)}>{job.text}</h2>
+                <div class="hidden ml-3 2xl:ml-5 -mt-3 sm:flex pt-[0.3em]">
+                  <h3 class="text-ironmanred mr-2 text-base sm:text-base md:text-base lg:text-base xl:text-xl 2xl:text-xl font-tt-demibold">{job.start}</h3>
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
