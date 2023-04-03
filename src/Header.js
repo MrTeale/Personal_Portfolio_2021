@@ -1,4 +1,4 @@
-import header_image from './images/1200x600_header.jpg'
+import header_image from './images/1200x600_header.webp'
 
 function Header() {
   return (
