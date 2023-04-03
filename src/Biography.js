@@ -1,5 +1,5 @@
-import fun_image from './images/800x450.jpg'
-import fun_image_2 from './images/1400x1000.jpg'
+import fun_image from './images/800x450.webp'
+import fun_image_2 from './images/1400x1000.webp'
 
 function Biography() {
   return (
