@@ -2,19 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face { 
-    font-family: 'Formula Bold'; 
-    src: url('./fonts/PPFormulaCondensed-Bold.otf'); 
-} 
-@font-face {
-    font-family: 'TT Hoves Regular';
-    src: url('./fonts/TTHoves-Regular.ttf');
-}
-@font-face {
-    font-family: 'TT Hoves DemiBold';
-    src: url('./fonts/TTHoves-DemiBold.ttf');
-}
-
 html, body {
     max-width: 1900px;
     margin: 0 auto !important; 

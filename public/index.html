@@ -11,6 +11,27 @@
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="preload" href="%PUBLIC_URL%/TTHoves-Regular.ttf" as="font" crossorigin>
+    <link rel="preload" href="%PUBLIC_URL%/TTHoves-DemiBold.ttf" as="font" crossorigin>
+    <link rel="preload" href="%PUBLIC_URL%/PPFormulaCondensed-Bold.otf" as="font" crossorigin>
+    <style>
+      @font-face { 
+        font-family: 'Formula Bold'; 
+        src: url('%PUBLIC_URL%/PPFormulaCondensed-Bold.otf');
+        font-display: swap;
+      } 
+      @font-face {
+        font-family: 'TT Hoves Regular';
+        src: url('%PUBLIC_URL%/TTHoves-Regular.ttf');
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'TT Hoves DemiBold';
+        src: url('%PUBLIC_URL%/TTHoves-DemiBold.ttf');
+        font-display: swap;
+      }
+
+    </style>
     <title>Lachlan Teale's Portfolio</title>
   </head>
   <body>
